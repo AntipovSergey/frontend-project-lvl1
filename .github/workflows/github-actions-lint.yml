@@ -1,7 +1,7 @@
 name: GitHub Actions Lint
 on: [push]
 jobs:
-  build:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
        - name: npm install
