@@ -13,16 +13,14 @@ Question: ${randomNumber} `);
             console.log('Correct!');
             result++;
         } else if (randomNumber % 2 !== 0 && gameQuestion === 'yes') {
-            console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.
+            return console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.
 Let's try again, ${name}!`);
-            result = 0;
+
         } else if (randomNumber % 2 === 0 && gameQuestion === 'no') {
-            console.log(`'no' is wrong answer ;(. Correct answer was 'yes'.
+            return console.log(`'no' is wrong answer ;(. Correct answer was 'yes'.
 Let's try again, ${name}!`);
-            result = 0;
         } else if (gameQuestion !== 'yes' || gameQuestion !== 'no') {
-            console.log('Correct input should be "yes" or "no"');
-            result = 0;
+            return console.log('Correct input should be "yes" or "no"');
         }
     }
     console.log(`Congratulations, ${name}!`);
