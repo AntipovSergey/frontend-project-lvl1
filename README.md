@@ -9,3 +9,6 @@
 
 ### brain-even video-instruction
 https://asciinema.org/a/cqZfI4B6Psl01XVVFutqLT9yY
+
+### brain-calc video-instruction
+https://asciinema.org/a/HtCdjwLlb8c37nFzBtFCtzD36
