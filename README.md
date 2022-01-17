@@ -6,3 +6,6 @@
 
 ### Workflow Lint bage
 ![example workflow](https://github.com/AntipovSergey/frontend-project-lvl1/actions/workflows/github-actions-lint.yml/badge.svg)
+
+### brain-even video-instruction
+https://asciinema.org/a/cqZfI4B6Psl01XVVFutqLT9yY
