@@ -4,7 +4,7 @@ const name = readlineSync.question(`Welcome to the Brain Games!
 May I have your name? `);
 
 const getUserName = () => {
-  console.log(`Hello, ${name}!`);
+    console.log(`Hello, ${name}!`);
 };
 
-export default getUserName;
+export { getUserName, name };
