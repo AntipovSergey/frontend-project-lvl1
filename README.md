@@ -6,6 +6,3 @@
 
 ### Workflow Lint bage
 ![example workflow](https://github.com/AntipovSergey/frontend-project-lvl1/actions/workflows/github-actions-lint.yml/badge.svg)
-
-### Workflow Demo bage
-![example workflow](https://github.com/AntipovSergey/frontend-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)
