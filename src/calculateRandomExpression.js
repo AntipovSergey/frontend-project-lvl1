@@ -32,7 +32,7 @@ const calculateRandomExpression = () => {
             console.log('Correct!');
             result++;
         } else {
-            return console.log(`${gameAnswer} is wrong answer ;(. Correct answer was ${gamePuprose}.
+            return console.log(`'${gameAnswer}' is wrong answer ;(. Correct answer was '${gamePuprose}'.
 Let's try again, ${name}!`);
         }
     }
