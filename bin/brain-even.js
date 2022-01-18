@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-import { getUserName } from '../src/cli.js';
-import isNumberEven from '../src/isNumberEven.js';
+import brainEven from '../src/games/games-even.js';
 
-getUserName();
-isNumberEven();
+brainEven();

@@ -14,7 +14,7 @@ const generateGame = (gameQuestion, gameQuestionAnswer) => {
             console.log('Correct');
             result++;
         } else {
-            return console.log(`'no' is wrong answer ;(. Correct answer was 'yes'.
+            return console.log(`'${yourAnswer}' is wrong answer ;(. Correct answer was '${answer}'.
 Let's try again, ${name}!`);
         }
     }

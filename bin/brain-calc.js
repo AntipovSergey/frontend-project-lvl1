@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-import { getUserName } from '../src/cli.js';
-import calculateRandomExpression from '../src/calculateRandomExpression.js';
+import brainCalc from '../src/games/games-calc.js';
 
-getUserName();
-calculateRandomExpression();
+brainCalc();
