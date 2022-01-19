@@ -1,5 +1,5 @@
 import generateGame from '../index.js';
-import getRandomNubmer from '../randomNumber.js';
+import getRandomNumber from '../randomNumber.js';
 
 const gameQuestion = 'What is the result of the expression?';
 
@@ -20,9 +20,9 @@ const applyOperator = (op, a, b) => {
 };
 
 const gameQuestionAnswer = () => {
-  const firstRandomNumber = getRandomNubmer();
-  const secondRandomNumber = getRandomNubmer();
-  const randomOperator = operators[getRandomNubmer(0, operators.length)];
+  const firstRandomNumber = getRandomNumber();
+  const secondRandomNumber = getRandomNumber();
+  const randomOperator = operators[getRandomNumber(0, operators.length)];
   const question = `${firstRandomNumber} ${randomOperator} ${secondRandomNumber}`;
   const answer = String(applyOperator(randomOperator, firstRandomNumber, secondRandomNumber));
   return [question, answer];

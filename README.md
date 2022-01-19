@@ -15,3 +15,6 @@ https://asciinema.org/a/HtCdjwLlb8c37nFzBtFCtzD36
 
 ### brain-gcd video-instruction
 https://asciinema.org/a/VKGnRM4vQ9r8NxvQ6G9URSx3D
+
+### brain-progression video-instruction
+https://asciinema.org/a/ttKPM3oBMbmqpMfzVwbHIdx18
