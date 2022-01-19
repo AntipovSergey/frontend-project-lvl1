@@ -24,7 +24,7 @@ const arrayWithCoveredElem = (arr) => {
 
 const gameQuestionAnswer = () => {
   const [arr, randomElement] = arrayWithCoveredElem(arithmeticProgression());
-  const question = arr;
+  const question = arr.join(' ');
   const answer = String(randomElement);
   return [question, answer];
 };

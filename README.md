@@ -20,7 +20,7 @@ https://asciinema.org/a/HtCdjwLlb8c37nFzBtFCtzD36
 https://asciinema.org/a/VKGnRM4vQ9r8NxvQ6G9URSx3D
 
 ### brain-progression video-instruction
-https://asciinema.org/a/ttKPM3oBMbmqpMfzVwbHIdx18
+https://asciinema.org/a/rx8o4GAnvoCvS1scT72fOZEuG
 
 ### brain-prime video-instruction
 https://asciinema.org/a/7ft07dJnVBPAMvYHW12RLEal5
