@@ -18,3 +18,6 @@ https://asciinema.org/a/VKGnRM4vQ9r8NxvQ6G9URSx3D
 
 ### brain-progression video-instruction
 https://asciinema.org/a/ttKPM3oBMbmqpMfzVwbHIdx18
+
+### brain-prime video-instruction
+https://asciinema.org/a/7ft07dJnVBPAMvYHW12RLEal5
