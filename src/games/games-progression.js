@@ -3,7 +3,7 @@ import getRandomNumber from '../randomNumber.js';
 
 const gameQuestion = 'What number is missing in the progression?';
 
-const arithmeticProgression = () => {
+const generateArithmeticProgression = () => {
   const result = [];
   const step = getRandomNumber(2, 5);
   const firstNumber = getRandomNumber(1, 10);
@@ -17,13 +17,13 @@ const arithmeticProgression = () => {
   return result;
 };
 
-const arrayWithCoveredElem = (arr) => {
+const createArrayWithCoveredElem = (arr) => {
   const randomElement = arr.splice(getRandomNumber(0, arr.length), 1, '..');
   return [arr, randomElement];
 };
 
 const gameQuestionAnswer = () => {
-  const [arr, randomElement] = arrayWithCoveredElem(arithmeticProgression());
+  const [arr, randomElement] = createArrayWithCoveredElem(generateArithmeticProgression());
   const question = arr.join(' ');
   const answer = String(randomElement);
   return [question, answer];
