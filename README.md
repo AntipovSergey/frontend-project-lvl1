@@ -18,7 +18,7 @@ To win the you have to answer correctly on 3 questions in a row.
 ![Actions Status](https://github.com/AntipovSergey/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/AntipovSergey/frontend-project-lvl1/actions)
 
 2. Codeclimate maintainability badge:
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+<a href="https://codeclimate.com/github/AntipovSergey/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/3ef7e2ffc77f54f60af2/maintainability" /></a>
 
 3. Workflow Lint bage:   
 ![example workflow](https://github.com/AntipovSergey/frontend-project-lvl1/actions/workflows/github-actions-lint.yml/badge.svg)
