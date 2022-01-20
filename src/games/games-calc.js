@@ -5,18 +5,16 @@ const gameQuestion = 'What is the result of the expression?';
 
 const operators = ['+', '*'];
 const applyOperator = (op, a, b) => {
-  let applyOperatorResult;
   switch (op) {
     case '+':
-      applyOperatorResult = a + b;
-      break;
+      return a + b;
     case '*':
-      applyOperatorResult = a * b;
-      break;
+      return a * b;
     default:
       break;
   }
-  return applyOperatorResult;
+
+  return null;
 };
 
 const gameQuestionAnswer = () => {
