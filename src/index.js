@@ -3,10 +3,11 @@ import { getUserName, name } from './cli.js';
 
 const generateGame = (gameQuestion, gameQuestionAnswer) => {
   let result = 0;
+  const attempts = 3;
   getUserName();
   console.log(gameQuestion);
 
-  while (result !== 3) {
+  while (result !== attempts) {
     const [question, answer] = gameQuestionAnswer();
     console.log(`Question: ${question}`);
     const yourAnswer = readlineSync.question('Your answer: ');
