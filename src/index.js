@@ -1,10 +1,10 @@
 import readlineSync from 'readline-sync';
-import { getUserName, name } from './cli.js';
 
 const generateGame = (gameQuestion, gameQuestionAnswer) => {
   let result = 0;
   const attempts = 3;
-  getUserName();
+  const name = readlineSync.question(`Welcome to the Brain Games!
+May I have your name? `);
   console.log(gameQuestion);
 
   while (result !== attempts) {
