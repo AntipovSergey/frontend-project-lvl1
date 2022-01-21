@@ -24,16 +24,16 @@ To win the you have to answer correctly on 3 questions in a row.
 ![example workflow](https://github.com/AntipovSergey/frontend-project-lvl1/actions/workflows/github-actions-lint.yml/badge.svg)
 
 ### brain-even video-instruction
-[![asciicast](https://asciinema.org/a/cqZfI4B6Psl01XVVFutqLT9yY.svg)](https://asciinema.org/a/cqZfI4B6Psl01XVVFutqLT9yY)
+[![asciicast](https://asciinema.org/a/abk1uDK4eITN2g4npDh7eZnfP.svg)](https://asciinema.org/a/abk1uDK4eITN2g4npDh7eZnfP)
 
 ### brain-calc video-instruction
-[![asciicast](https://asciinema.org/a/HtCdjwLlb8c37nFzBtFCtzD36.svg)](https://asciinema.org/a/HtCdjwLlb8c37nFzBtFCtzD36)
+[![asciicast](https://asciinema.org/a/fFCnodZY5CYvggMsbRmPIRsxc.svg)](https://asciinema.org/a/fFCnodZY5CYvggMsbRmPIRsxc)
 
 ### brain-gcd video-instruction
-[![asciicast](https://asciinema.org/a/VKGnRM4vQ9r8NxvQ6G9URSx3D.svg)](https://asciinema.org/a/VKGnRM4vQ9r8NxvQ6G9URSx3D)
+[![asciicast](https://asciinema.org/a/AfjORU38hQOGKHV6gFM4zSR7k.svg)](https://asciinema.org/a/AfjORU38hQOGKHV6gFM4zSR7k)
 
 ### brain-progression video-instruction
-[![asciicast](https://asciinema.org/a/rx8o4GAnvoCvS1scT72fOZEuG.svg)](https://asciinema.org/a/rx8o4GAnvoCvS1scT72fOZEuG)
+[![asciicast](https://asciinema.org/a/adJx2sLJBXbT9oD1bcCJOIFXg.svg)](https://asciinema.org/a/adJx2sLJBXbT9oD1bcCJOIFXg)
 
 ### brain-prime video-instruction
-[![asciicast](https://asciinema.org/a/7ft07dJnVBPAMvYHW12RLEal5.svg)](https://asciinema.org/a/7ft07dJnVBPAMvYHW12RLEal5)
+[![asciicast](https://asciinema.org/a/JKab2LY7nmN0Ujx3VvCH8alPz.svg)](https://asciinema.org/a/JKab2LY7nmN0Ujx3VvCH8alPz)
