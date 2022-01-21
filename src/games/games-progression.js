@@ -2,8 +2,6 @@ import generateGame from '../index.js';
 import getRandomNumber from '../randomNumber.js';
 
 const gameQuestion = 'What number is missing in the progression?';
-const step = getRandomNumber(2, 5);
-const firstNumber = getRandomNumber(1, 10);
 
 const generateArithmeticProgression = (init, move) => {
   const result = [];
@@ -21,6 +19,8 @@ const createGameArray = (arr) => {
 };
 
 const gameQuestionAnswer = () => {
+  const step = getRandomNumber(2, 10);
+  const firstNumber = getRandomNumber(1, 10);
   const [arr, randomElement] = createGameArray(generateArithmeticProgression(firstNumber, step));
   const question = arr.join(' ');
   const answer = String(randomElement);
