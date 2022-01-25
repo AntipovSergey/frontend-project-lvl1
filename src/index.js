@@ -3,8 +3,7 @@ import readlineSync from 'readline-sync';
 const generateGame = (gameQuestion, gameQuestionAnswer) => {
   let result = 0;
   const attempts = 3;
-  const name = readlineSync.question(`Welcome to the Brain Games!
-May I have your name? `);
+  const name = readlineSync.question('Welcome to the Brain Games!\nMay I have your name? ');
   console.log(gameQuestion);
 
   while (result !== attempts) {
@@ -15,8 +14,7 @@ May I have your name? `);
       console.log('Correct');
       result += 1;
     } else {
-      return console.log(`'${yourAnswer}' is wrong answer ;(. Correct answer was '${answer}'.
-Let's try again, ${name}!`);
+      return console.log(`'${yourAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\n Let's try again, ${name}!`);
     }
   }
   return console.log(`Congratulations, ${name}!`);
