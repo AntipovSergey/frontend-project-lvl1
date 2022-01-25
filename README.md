@@ -15,7 +15,7 @@ To win the game you have to answer correctly on 3 questions in a row.
 
 ### Workflow badges
 1. Hexlet tests and linter status:
-![Actions Status](https://github.com/AntipovSergey/frontend-project-lvl1/workflows/hexlet-check/badge.svg)  (https://github.com/AntipovSergey/frontend-project-lvl1/actions)
+![Actions Status](https://github.com/AntipovSergey/frontend-project-lvl1/workflows/hexlet-check/badge.svg) <br /> https://github.com/AntipovSergey/frontend-project-lvl1/actions)
 
 2. Codeclimate maintainability badge:
 <a href="https://codeclimate.com/github/AntipovSergey/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/3ef7e2ffc77f54f60af2/maintainability" /></a>
