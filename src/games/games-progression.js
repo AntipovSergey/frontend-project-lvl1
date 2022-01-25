@@ -3,27 +3,33 @@ import getRandomNumber from '../randomNumber.js';
 
 const gameQuestion = 'What number is missing in the progression?';
 
-const generateArithmeticProgression = (init, move) => {
+const generateArithmeticProgression = (init, move, length) => {
   const result = [];
 
-  for (let i = 0; i < 10 * move; i += move) {
-    result.push(init + i);
+  for (let i = 0; i <= length; i += 1) {
+    result.push(init + (i * move));
   }
 
   return result;
 };
 
-const createGameArray = (arr) => {
-  const randomElement = arr.splice(getRandomNumber(0, arr.length - 1), 1, '..');
-  return [arr, randomElement];
+const createGameArray = (arr, item) => {
+  const randomArr = [...arr];
+  const randomElementIndex = item;
+  const randomElement = randomArr[randomElementIndex];
+  randomArr[randomElementIndex] = '..';
+  return [randomArr.join(' '), randomElement];
 };
 
 const gameQuestionAnswer = () => {
   const step = getRandomNumber(2, 10);
   const firstNumber = getRandomNumber(1, 10);
-  const [arr, randomElement] = createGameArray(generateArithmeticProgression(firstNumber, step));
-  const question = arr.join(' ');
-  const answer = String(randomElement);
+  const length = getRandomNumber(5);
+  const gameArray = generateArithmeticProgression(firstNumber, step, length);
+  const randomNumber = getRandomNumber(1, gameArray.length);
+  const [arithmeticProgression, hiddenElement] = createGameArray(gameArray, randomNumber);
+  const question = arithmeticProgression;
+  const answer = String(hiddenElement);
   return [question, answer];
 };
 
