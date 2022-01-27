@@ -28,8 +28,7 @@ const gameQuestionAnswer = () => {
   const gameArray = generateArithmeticProgression(firstNumber, step, length);
   const randomNumber = getRandomNumber(1, gameArray.length);
   const [question, hiddenElement] = createGameArray(gameArray, randomNumber);
-  const answer = String(hiddenElement);
-  return [question, answer];
+  return [question, String(hiddenElement)];
 };
 
 const brainProgression = () => generateGame(gameQuestion, gameQuestionAnswer);
