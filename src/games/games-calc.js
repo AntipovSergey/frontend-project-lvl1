@@ -1,7 +1,7 @@
 import generateGame from '../index.js';
 import getRandomNumber from '../randomNumber.js';
 
-const gameQuestion = 'What is the result of the expression?';
+const gameRule = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 const generateExpression = (op, a, b) => {
@@ -26,6 +26,6 @@ const gameQuestionAnswer = () => {
   return [question, answer];
 };
 
-const brainGames = () => generateGame(gameQuestion, gameQuestionAnswer);
+const brainGames = () => generateGame(gameRule, gameQuestionAnswer);
 
 export default brainGames;

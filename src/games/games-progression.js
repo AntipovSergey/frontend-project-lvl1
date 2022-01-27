@@ -1,7 +1,7 @@
 import generateGame from '../index.js';
 import getRandomNumber from '../randomNumber.js';
 
-const gameQuestion = 'What number is missing in the progression?';
+const gameRule = 'What number is missing in the progression?';
 
 const generateArithmeticProgression = (init, move, length) => {
   const result = [];
@@ -31,6 +31,6 @@ const gameQuestionAnswer = () => {
   return [question, String(hiddenElement)];
 };
 
-const brainProgression = () => generateGame(gameQuestion, gameQuestionAnswer);
+const brainProgression = () => generateGame(gameRule, gameQuestionAnswer);
 
 export default brainProgression;
