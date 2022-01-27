@@ -27,8 +27,7 @@ const gameQuestionAnswer = () => {
   const length = getRandomNumber(5);
   const gameArray = generateArithmeticProgression(firstNumber, step, length);
   const randomNumber = getRandomNumber(1, gameArray.length);
-  const [arithmeticProgression, hiddenElement] = createGameArray(gameArray, randomNumber);
-  const question = arithmeticProgression;
+  const [question, hiddenElement] = createGameArray(gameArray, randomNumber);
   const answer = String(hiddenElement);
   return [question, answer];
 };
