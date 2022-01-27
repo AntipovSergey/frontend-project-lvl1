@@ -3,16 +3,14 @@ import getRandomNumber from '../randomNumber.js';
 
 const gameQuestion = 'Find the greatest common divisor of given numbers.';
 
-const getGcd = (a, b) => {
-  let result;
-  for (let i = a; i > 0; i -= 1) {
-    if (a % i === 0 && b % i === 0) {
-      result = i;
-      break;
+const getGcd = (firstNumber, secondNumber) => {
+  for (let i = firstNumber; i > 0; i -= 1) {
+    if (firstNumber % i === 0 && secondNumber % i === 0) {
+      return i;
     }
   }
 
-  return result;
+  return firstNumber;
 };
 
 const gameQuestionAnswer = () => {
