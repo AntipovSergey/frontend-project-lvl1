@@ -14,11 +14,11 @@ const generateArithmeticProgression = (init, move, length) => {
 };
 
 const createGameArray = (arr, item) => {
-  const randomArr = [...arr];
+  const arrCopy = [...arr];
   const randomElementIndex = item;
-  const randomElement = randomArr[randomElementIndex];
-  randomArr[randomElementIndex] = '..';
-  return [randomArr.join(' '), randomElement];
+  const randomElement = arrCopy[randomElementIndex];
+  arrCopy[randomElementIndex] = '..';
+  return [arrCopy.join(' '), randomElement];
 };
 
 const gameQuestionAnswer = () => {
