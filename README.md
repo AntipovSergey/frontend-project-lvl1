@@ -15,13 +15,13 @@ To win the game you have to answer correctly on 3 questions in a row.
 
 ### Workflow badges
 1. Hexlet tests and linter status: <br>
-![Actions Status](https://github.com/AntipovSergey/frontend-project-lvl1/actions/workflows/hexlet-check/badge.svg)
+[![Actions Status](https://github.com/AntipovSergey/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/AntipovSergey/frontend-project-lvl1/actions)
 
 2. Codeclimate maintainability badge: <br>
 <a href="https://codeclimate.com/github/AntipovSergey/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/3ef7e2ffc77f54f60af2/maintainability" /></a>
 
 3. Workflow Lint badge:   
-![example workflow](https://github.com/AntipovSergey/frontend-project-lvl1/actions/workflows/github-actions-lint.yml/badge.svg)
+[![example workflow](https://github.com/AntipovSergey/frontend-project-lvl1/actions/workflows/github-actions-lint.yml/badge.svg)](https://github.com/AntipovSergey/frontend-project-lvl1/actions)
 
 ### brain-even video-instruction
 [![asciicast](https://asciinema.org/a/abk1uDK4eITN2g4npDh7eZnfP.svg)](https://asciinema.org/a/abk1uDK4eITN2g4npDh7eZnfP)
