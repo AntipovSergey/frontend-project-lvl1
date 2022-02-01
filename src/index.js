@@ -14,10 +14,11 @@ const generateGame = (gameRule, gameQuestionAnswer) => {
     if (yourAnswer === answer) {
       console.log('Correct');
     } else {
-      return console.log(`'${yourAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\n Let's try again, ${name}!`);
+      console.log(`'${yourAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\n Let's try again, ${name}!`);
+      return;
     }
   }
-  return console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${name}!`);
 };
 
 export default generateGame;
