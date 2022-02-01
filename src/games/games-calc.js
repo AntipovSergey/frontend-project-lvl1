@@ -20,7 +20,7 @@ const generateExpression = (op, a, b) => {
 const gameQuestionAnswer = () => {
   const firstRandomNumber = getRandomNumber();
   const secondRandomNumber = getRandomNumber();
-  const randomOperator = operators[getRandomNumber(0, operators.length)];
+  const randomOperator = operators[getRandomNumber(0, operators.length - 1)];
   const question = `${firstRandomNumber} ${randomOperator} ${secondRandomNumber}`;
   const answer = String(generateExpression(randomOperator, firstRandomNumber, secondRandomNumber));
   return [question, answer];
